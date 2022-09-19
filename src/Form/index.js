@@ -69,7 +69,7 @@ const Form = ({
           <FormText>
             <FormButton>WYLICZ !</FormButton>
           </FormText>
-          <FormResult style={{ "white-space": "pre-wrap" }} id="TU JEST WYNIK">
+          <FormResult id="TU JEST WYNIK">
             {resultValue}
           </FormResult>
           {messageFromApi === "almostOk" ? (
