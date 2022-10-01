@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ## Project adress
 
-https://jacob-isaac.github.io/new-converter-react/
+https://jacob-isaac.github.io/converter-react/
 
 ### `npm start`
 
