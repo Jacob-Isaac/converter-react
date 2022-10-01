@@ -1,8 +1,8 @@
 {
-  "name": "new-converter-react",
+  "name": "converter-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jacob-isaac.github.io/new-converter-react/",
+  "homepage": "https://jacob-isaac.github.io/converter-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
