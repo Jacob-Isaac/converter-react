@@ -13,6 +13,7 @@ export const FormText = styled.p`
 export const FormResult = styled.p`
   margin-bottom: 30px;
   margin-top: 5%;
+  white-space: pre-wrap;
 
   @media (min-width: 800px) {
     font-size: 30px;
@@ -47,13 +48,29 @@ export const Error = styled.p`
 export const Cog = styled.img`
   width: 70px;
   height: 70px;
-  animation: rotation 6s infinite linear;
-  @keyframes rotation {
-    from {
+  animation: transform 2s;
+  @keyframes transform {
+    0% {
       transform: rotate(0deg);
     }
-    to {
+    50% {
       transform: rotate(359deg);
+    }
+    100% {
+      transform: rotate(0deg);
     }
   }
 `;
+// export const Cog = styled.img`
+//   width: 70px;
+//   height: 70px;
+//   animation: rotation 6s infinite linear;
+//   @keyframes rotation {
+//     from {
+//       transform: rotate(0deg);
+//     }
+//     to {
+//       transform: rotate(359deg);
+//     }
+//   }
+// `;
