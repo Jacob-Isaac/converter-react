@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', cursive, sans-serif;
-  background-color: #3f3f3f;
+  font-family: "Montserrat", cursive, sans-serif;
+  background-color: #f3f3f3c2;
   text-align: center;
+  min-width: 280px;
 }

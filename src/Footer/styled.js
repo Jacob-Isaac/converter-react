@@ -54,8 +54,8 @@ export const Contact = styled.ul`
 
 export const Properties = styled.footer`
   text-align: center;
-  box-shadow: 0.1px 0.1px 10px;
+  /* box-shadow: 0.1px 0.1px 10px; */
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(255 255 255 / 80%);
+  /* background-color: rgb(255 255 255 / 80%); */
 `;

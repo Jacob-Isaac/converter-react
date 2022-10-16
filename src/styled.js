@@ -3,19 +3,23 @@ import styled from "styled-components";
 
 export const CenterBoxProperties = styled.form`
     color: rgb(24, 24, 24);
-    box-shadow: 5px 5px 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* z-index: 0;
+    position: relative; */
+    /* box-shadow: 5px 5px 10px; */
+    position: absolute;
+    margin-top: 150px;
+    margin-bottom: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(255 255 255 / 80%);
-    border-radius: 17px;
+    background-color: white;
+    border-radius: 5px;
     align-self: center;
     width: 70%;
     min-width: 250px;
-      
+    max-height  : 600px;
   @media (min-width: 800px) {
       width: 750px;
+      height  : 600px;
   }
   `;
 export const Flex = styled.main`
@@ -23,4 +27,5 @@ export const Flex = styled.main`
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+ 
   `;

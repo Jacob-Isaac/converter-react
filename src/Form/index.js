@@ -9,6 +9,8 @@ import {
   FormButton,
   FormInput,
   Error,
+  Wrap,
+  Wrapper
 } from "./styled.js";
 import { CenterBoxProperties } from "../styled.js";
 import LoadingScreen from "./loadingScreen";
@@ -43,10 +45,10 @@ const Form = ({
     case "ok":
     case "almostOk":
       content = (
-        <>
-          <FormText dateText name="text">
+        <Wrapper>
+         <FormText dateText name="text">
             <WeekDay />, godzina: {formatedDate}
-          </FormText>
+          </FormText> 
           <FormText name="text">{messageValue}</FormText>
           <p>
             <label>
@@ -77,14 +79,14 @@ const Form = ({
               Błąd serwera. Chwilowo korzystasz z nieaktualnych kursów walut.
             </Error>
           ) : (
-            <p>
+            <Wrap>
               Kursy walut są pobierane z <b>Europejskiego Banku Centralnego</b>.
               <br></br>
               <br></br>
               Stan na <CurrencyDate />.
-            </p>
+            </Wrap>
           )}
-        </>
+        </Wrapper>
       );
       break;
 

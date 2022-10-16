@@ -22,8 +22,7 @@ const Footer = () => {
   return (
     <Properties id="contact">
       <Contact>
-        <ListStyle>Dane kontaktowe:</ListStyle>
-        <ListStyle>Jakub Nowakowski</ListStyle>
+
         <ListStyle>
           e-mail:
           <Link
@@ -42,19 +41,6 @@ const Footer = () => {
             href="tel:+48.666(666)666"
           >
             <LinkText>+48 666-666-666</LinkText>
-          </Link>
-        </ListStyle>
-        <ListStyle>
-          <Link
-            target="_blank"
-            rel="noreferrer noopener"
-            href="https://www.facebook.com/nowakowski.malarstwo"
-            title="Otwórz w nowej karcie"
-          >
-            <Img
-              // src={require('./facebook.png')} - inny sposób na implementacje img
-              alt="Jakub Nowakowski"
-            />
           </Link>
         </ListStyle>
       </Contact>

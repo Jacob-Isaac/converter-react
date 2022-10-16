@@ -2,6 +2,7 @@ import {
   Navigation,
   NavigationLinks,
   LogoImg,
+  Wrapper
 } from "./styled.js";
 
 const Header = ({
@@ -11,7 +12,9 @@ const Header = ({
 }) => (
   <header>
     <Navigation>
-      <LogoImg alt="logo" width="100" height="40" />
+    </Navigation>
+    <Wrapper>
+    <LogoImg alt="logo"/>
       <NavigationLinks onClick={onZlotyButtonClick}>
         <span>Złoty polski (PLN)</span>
       </NavigationLinks>
@@ -21,7 +24,7 @@ const Header = ({
       <NavigationLinks onClick={onDollarButtonClick}>
         <span>Dolar amerykański (USD)</span>
       </NavigationLinks>
-    </Navigation>
+      </Wrapper>
   </header>
 );
 

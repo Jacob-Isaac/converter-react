@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const FormText = styled.p`
+margin: 15px;
   margin-bottom: 30px;
   ${({ dateText }) =>
     dateText &&
@@ -8,37 +9,60 @@ export const FormText = styled.p`
       font-family: "Courier New", Courier, monospace;
       font-size: 14px;
     `}
+    @media (max-width: 600px) {
+    font-size: 12px;
+  }
+`;
+
+export const Wrap = styled.p`
+margin: 15px;
+@media (max-width: 600px) {
+    font-size: 12px;
+  }
+`;
+export const Wrapper = styled.div`
+margin-top:100px;
 `;
 
 export const FormResult = styled.p`
   margin-bottom: 30px;
   margin-top: 5%;
   white-space: pre-wrap;
-
-  @media (min-width: 800px) {
-    font-size: 30px;
+  font-size: 30px;
+  
+  @media (max-width: 800px) {
+   margin-left: 15px;
+   margin-right: 15px;
+   font-size: 25px;
   }
+ 
 `;
 export const FormInput = styled.input`
   width: 40%;
-  border-radius: 5px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 10px;
 
-  @media (max-width: 450px) {
-    width: 100px;
-    font-size: 10px;
+  @media (max-width: 600px) {
+    width: 85%;
   }
 `;
 
 export const FormButton = styled.button`
   transition: all 0.3s ease-in-out;
+  background-color: #5a5a90;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
 
   @media (max-width: 800px) {
-    transform: scale(1.8);
+    transform: scale(1.2);
   }
   @media (min-width: 800px) {
     &:hover {
       cursor: pointer;
-      transform: scale(1.1);
+      transform: scale(1);
     }
   }
 `;
