@@ -16,13 +16,13 @@ const Header = ({
     <Wrapper>
     <LogoImg alt="logo"/>
       <NavigationLinks onClick={onZlotyButtonClick}>
-        <span>Złoty polski (PLN)</span>
+        <span>Złoty (PLN)</span>
       </NavigationLinks>
       <NavigationLinks onClick={onEuroButtonClick}>
         <span>Euro (EUR)</span>
       </NavigationLinks>
       <NavigationLinks onClick={onDollarButtonClick}>
-        <span>Dolar amerykański (USD)</span>
+        <span>Dolar (USD)</span>
       </NavigationLinks>
       </Wrapper>
   </header>

@@ -6,7 +6,6 @@ import {
   CopyRight,
   Contact,
   Properties,
-  Img,
 } from "./styled.js";
 
 const Footer = () => {

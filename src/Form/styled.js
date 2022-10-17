@@ -58,11 +58,21 @@ export const FormButton = styled.button`
 
   @media (max-width: 800px) {
     transform: scale(1.2);
+    &:active {
+      transition: all 0.1s ease-in-out;
+      filter: brightness(1.4);
+      transform: scale(1);
+    }
   }
   @media (min-width: 800px) {
     &:hover {
       cursor: pointer;
-      transform: scale(1);
+      transform:       scale(1.1);
+
+    }
+    &:active {
+      transition: all 0.1s ease-in-out;
+      filter: brightness(1.4);
     }
   }
 `;

@@ -49,12 +49,14 @@ grid-area: logo;
   height:85px;
   @media (max-width: 791px) {
     margin: 15px;
-  width:100px;
-  height:42px;
+    margin-top:50px;
+  width:150px;
+  height:63px;
   } 
 `;
 
 export const NavigationLinks = styled.button`
+
 position: relative;
 z-index: 2;
   background-color: transparent;
@@ -79,9 +81,10 @@ z-index: 2;
   }
   @media (max-width: 791px) {
     margin: 1px;
+    margin-left: -15px;
   margin-top: 20px;
   padding: 1px;
-  font-size: 10px;
+  font-size: 12px;
   } 
 `;
 
@@ -96,5 +99,7 @@ export const Wrapper = styled.div`
       "logo rest "
       "logo rest "
       "logo rest";
+      align-items: end;
+      margin-top: 10px;
   } 
 `;
