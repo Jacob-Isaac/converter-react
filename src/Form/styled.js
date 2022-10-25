@@ -95,16 +95,3 @@ export const Cog = styled.img`
     }
   }
 `;
-// export const Cog = styled.img`
-//   width: 70px;
-//   height: 70px;
-//   animation: rotation 6s infinite linear;
-//   @keyframes rotation {
-//     from {
-//       transform: rotate(0deg);
-//     }
-//     to {
-//       transform: rotate(359deg);
-//     }
-//   }
-// `;
