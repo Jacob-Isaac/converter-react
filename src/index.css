@@ -12,6 +12,6 @@ html {
 body {
   font-family: "Montserrat", cursive, sans-serif;
   background-color: #f3f3f3c2;
-  text-align: center;
+  /* text-align: center; */
   min-width: 280px;
 }
