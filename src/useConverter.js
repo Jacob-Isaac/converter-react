@@ -36,7 +36,7 @@ const useConverter = () => {
   const displayingResult = (currentCurrency, result, resultSecond) => {
     setResultValue(
       currentCurrency === "PLN"
-        ? `= ${result.toFixed(2)} USD \n ↕ \n= ${resultSecond.toFixed(2)} EUR`
+        ? `= ${result.toFixed(2)} USD \n lub \n= ${resultSecond.toFixed(2)} EUR`
         : `= ${result.toFixed(2)} PLN`
     );
   };

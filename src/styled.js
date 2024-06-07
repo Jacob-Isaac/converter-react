@@ -3,9 +3,6 @@ import styled from "styled-components";
 
 export const CenterBoxProperties = styled.form`
     color: rgb(24, 24, 24);
-    /* z-index: 0;
-    position: relative; */
-    /* box-shadow: 5px 5px 10px; */
     position: absolute;
     margin-top: 150px;
     margin-bottom: 60px;
